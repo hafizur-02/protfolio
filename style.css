@@ -1,0 +1,227 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+    width: 100%;
+    min-height: 700px;
+    background-color: #fff;
+}
+.nav_bar ul {
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+    margin-right: 100px;
+}
+.nav_bar ul li {
+    font-size: 15px;
+    font-weight: 700;
+    padding: 40px 20px;
+   color: #333535;
+}
+.content{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    margin-left: -65px;
+}
+.left_side {
+    margin: 0px 30px;
+    margin-top:-80px;
+}
+.left_side.fst_h1{
+    color: #151240;
+}
+.left_side h1 {
+    font-size: 70px;
+    font-weight:500;
+    text-transform: uppercase;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 3px;
+    line-height: 70px;
+    color: #FF6347 ;
+}
+.left_side p {
+    margin-top: 20px;
+    color:#333535; 
+    line-height: 22px;
+}
+.left_side button {
+    border: none;
+   background-color: #FF6347;
+    padding: 20px 60px;
+    color: #fff;
+    border-radius: 5px;
+     margin-top: 40px;
+
+}
+.right_side img {
+    width: 450px;
+    height: auto;
+}
+.about {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-top: 150px;
+}
+.left_side img {
+    width:350px;
+    height: auto;
+}
+.right_side  {
+     width: 35%; 
+     display: flex; 
+     flex-direction: column;
+     justify-content:space-around;
+     align-items: flex-start;
+}
+.right_side  h1 {
+    font-size: 40px;
+    font-weight: 400;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 1px;
+    color:#1B3151 ;
+    margin-bottom: 20px;
+}
+.right_side  p {
+    color: #333535;
+    font-size: 15px;
+    line-height: 20px;
+}
+.right_side button {
+    border: none;
+    color: #fff;
+    background-color:#FF6347 ;
+    padding: 20px 35px;
+    border-radius: 5px;
+    margin-top: 35px;
+    position: relative;
+} 
+.right_side button .fa {
+    position: absolute;
+   left: 15px;
+   top: 23px;
+   background-color: transparent;
+}
+.head h1{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: 190px 10px;
+   font-size: 40px;
+   font-weight: 500;
+   font-family: 'Bebas Neue', cursive;
+   color:#1B3151 ;
+}
+.project {
+    width: 80%;
+    min-height: 300px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    top: -120px;
+    left: 110px;;
+}
+.box {
+    width: 300px;
+    height: 300px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.img_area {
+    width: 90%;
+    height: 50%;
+    background-color: #fff;
+    background-image: url(images/pro_2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+    box-shadow:rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px; ;
+}
+.box h1 {
+    font-size: 20px;
+    color:#151240;
+    margin-top: 20px;
+}
+.box p{
+    font-size: 15px;
+    margin-top: 10px;
+    line-height: 20px;
+    margin-left: 15px;
+}
+.footer{
+    width: 60%;
+    height: 180px;
+    background-image: linear-gradient(to right ,#1488cc,
+    #2b32b2);
+    border-radius: 15px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  
+}
+.footer .head_1 h1 {
+    color: #fff;
+    font-size: 50px;
+    font-weight: 500;
+    font-family: 'Bebas Neue', cursive;
+    margin-left:-70px;
+}
+.link a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #FF6347;
+    padding: 15px 20px;
+    font-size: 15px;
+    border-radius: 5px;
+}    
+.footer_connect {
+    width: 100%;
+    height:100px;
+   display: flex;
+   justify-content:center;
+   align-items: center;
+   flex-direction: column;
+   margin-top: 100px;
+}
+.icon {
+    width:150px;
+    height: 30px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+     font-size: 50px;
+
+}
+.icon .face{
+    color: #0F67E7;
+}
+.icon .email {
+    color:#000 ;
+}
+
+
+
+
+ 
+
+
+
+
+
+
